@@ -1,4 +1,4 @@
-package aop.jdkProxy;
+package jdkProxy;
 
 public interface Subject {
 

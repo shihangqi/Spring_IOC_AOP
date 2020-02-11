@@ -1,7 +1,7 @@
 package bean;
 
 
-import aop.jdkProxy.Subject;
+import jdkProxy.Subject;
 import lombok.Data;
 import lombok.ToString;
 

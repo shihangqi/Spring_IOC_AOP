@@ -1,4 +1,4 @@
-package aop.jdkProxy;
+package jdkProxy;
 
 import bean.User;
 import ioc.SimpleIOC;
