@@ -3,7 +3,7 @@
         <property name="id" value="10"/>
         <property name="name" value="小明"/>
         <property name="age" value="15"/>
-        <property name="remark" value="这小孩儿是个学生"/>
+        <property name="gender" value="男"/>
     </bean>
 
     <bean id="user" class="ioc.bean.User">
