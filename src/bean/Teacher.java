@@ -1,4 +1,4 @@
-package ioc.bean;
+package bean;
 
 import lombok.Data;
 import lombok.ToString;
