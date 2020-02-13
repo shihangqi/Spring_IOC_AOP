@@ -33,7 +33,6 @@ public class XmlBeanFactory implements BeanFactory {
     }
 
 
-    @Override
     public Object getBean(String name) throws Exception {
         BeanDefinition beanDefinition = beanDefinitionMap.get(name);
         if (beanDefinition == null) {
@@ -125,7 +124,7 @@ public class XmlBeanFactory implements BeanFactory {
 
     }
 
-    private List getBeansForType(Class type)throws  Exception {
+    public List getBeansForType(Class type)throws  Exception {
 
         List beans = new ArrayList<>();
         for (String beanDefinitionName : beanDefinitionNames) {
