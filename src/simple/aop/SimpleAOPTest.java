@@ -1,8 +1,7 @@
-package aop;
+package simple.aop;
 
-import aop.service.HelloService;
-import aop.service.impl.HelloServiceImpl;
-import ioc.SimpleIOC;
+import simple.aop.service.HelloService;
+import simple.aop.service.impl.HelloServiceImpl;
 
 public class SimpleAOPTest {
 

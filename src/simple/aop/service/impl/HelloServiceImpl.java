@@ -1,6 +1,6 @@
-package aop.service.impl;
+package simple.aop.service.impl;
 
-import aop.service.HelloService;
+import simple.aop.service.HelloService;
 
 public class HelloServiceImpl implements HelloService {
 

@@ -1,4 +1,4 @@
-package aop.service;
+package simple.aop.service;
 
 public interface HelloService {
 

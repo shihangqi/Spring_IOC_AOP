@@ -1,4 +1,4 @@
-package aop;
+package simple.aop;
 
 import java.lang.reflect.Method;
 
