@@ -31,7 +31,10 @@ public class Agent {
 
 
     public static Object agent(Object proxy) {
+        //获取目标类的类加载器，用来加载代理对象所属类
+        //这里的类加载器不用管是谁的，类加载器可以加载不同的类。
         ClassLoader classLoader = proxy.getClass().getClassLoader();
+        //获取目标对象实现的所有接口的class，代理类会和目标类实现相同的接口。
         Class<?>[] interfaces = proxy.getClass().getInterfaces();
         return Proxy.newProxyInstance(classLoader, interfaces,
                 (object,method,args)->{
